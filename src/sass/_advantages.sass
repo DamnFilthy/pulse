@@ -1,0 +1,63 @@
+.advantages
+    min-width: 960px
+    background-color: #f6f6f6
+    min-height: 470px
+    padding: 69px 0 98px 0
+    &__header
+        display: block
+        margin: 0 auto
+        text-align: center
+        color: #0d0d0d
+        font-size: 30px
+        font-weight: 700
+        line-height: normal
+        text-transform: uppercase
+    &__icons
+        margin-top: 65px
+        display: flex
+        justify-content: space-between
+        align-items: flex-start
+    &__icon
+        width: 257px
+        display: flex
+        flex-direction: column
+        align-items: center
+        &_animated
+            animation-name: heartbeat
+            animation-duration: 1s
+            animation-timing-function: ease
+            animation-iteration-count: infinite
+            &:hover
+                animation-play-state: paused
+        &_cup
+            animation-name: cup
+            animation-play-state: paused
+            &:hover
+                animation-duration: 1s
+                animation-timing-function: ease
+                animation-iteration-count: infinite
+                animation-play-state: running
+        &_shoe
+            animation-name: shoe
+            animation-play-state: paused
+            &:hover
+                animation-duration: 1s
+                animation-timing-function: ease
+                animation-iteration-count: infinite
+                animation-play-state: running
+
+    &__title
+        margin-top: 38px
+        text-align: center
+        color: #0d0d0d
+        font-size: 18px
+        font-weight: 700
+    &__text
+        text-align: center
+        margin-top: 29px
+        color: #0d0d0d
+        font-size: 14px
+        font-weight: 300
+        a
+            color: #ff0000
+            text-decoration: underline
